@@ -64,23 +64,6 @@ function swapObject(obj) {
 }
 
 
-// OVO ISPOD MOZES DAOBRISES
 
 
 
-
-
-
-
-
-
-
-function swap(student) {
-  var swapped = {}
-  for (var key in student) {
-    swapped[student[key]] = key
-  }
-  return swapped;
-}
-var swapped = swap(student)
-console.log(swapped)
